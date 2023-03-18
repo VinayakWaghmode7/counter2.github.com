@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: "Oswals" , sans-serif;
+}
+
+.wrapper{
+    height:100vh;
+    width:100vw;
+    background: url("Background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+
+.container{
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    /* position: absolute; */
+    font-size: 60px;
+    color: rgb(74, 157, 74);   
+}
+
+
+
+.Days-Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    width:100%;
+    color: rgb(74, 157, 74);   
+   margin-top: 20px;
+
+}
+input{
+    display: block;
+    height:60px;
+    width:90%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Days-Section div{
+    width:250px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
